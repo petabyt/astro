@@ -11,7 +11,7 @@
 	</style>
 </head>
 <body>
-	<h1>My Astro Archive</h1>
+	<h1>Daniel's Astro Archive</h1>
 	<p><a href="readme.html">About</a></p>
 	<p><a href="categories.html">Categories</a></p>
 	<p><a href="etc">Other pictures</a></p>
@@ -32,7 +32,7 @@
 
 	usort($output, function($a, $b) {
 		$a = strtotime($a);
-	    $b = strtotime($b);
+		$b = strtotime($b);
 		return $b - $a;
 	});
 
@@ -57,7 +57,7 @@
 			return true;
 		}
 
-		return substr( $haystack, -$length ) === $needle;
+		return substr($haystack, -$length) === $needle;
 	}
 
 	?>
