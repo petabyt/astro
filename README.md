@@ -1,6 +1,6 @@
 # astrodump
 A simple format I devised for storing my astrophotography.  
-You can see it in action here: https://petabyt.dev/astro/  
+You can see it in action here: https://s1.danielc.dev/astro
 
 ## File Structure
 Alongside the index.php file, folders are created for each  
